@@ -1,0 +1,20 @@
+{
+    "name": "retcorspeed-back",
+    "module": "index.ts",
+    "type": "module",
+    "private": true,
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    },
+    "scripts": {
+        "migrate": "drizzle-kit push"
+    },
+    "dependencies": {
+        "drizzle-kit": "^0.31.1",
+        "drizzle-orm": "^0.44.2",
+        "mysql2": "^3.14.1"
+    }
+}
